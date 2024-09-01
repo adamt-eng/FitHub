@@ -1,0 +1,53 @@
+﻿.view {
+    width: 100%;
+    min-height: 80vh;
+    position: relative;
+}
+
+.about {
+    overflow: hidden;
+    padding: 100px 0;
+    padding: 240px 80px 80px;
+}
+
+.inner-container {
+    width: 70%;
+    max-width: 1500px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
+   
+    transform: translate(25%, -20%);
+}
+
+.inner-container h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #EEFC11;
+}
+    .inner-container p {
+        font-size: 24px;
+        margin-bottom: 5px;
+        font-weight: 500;
+        color:  #EEFC11;
+        text-align:left;
+    }
+
+.ingredients-list {
+    text-align: left;
+    color: #fff;
+}
+.recipe-steps {
+text-align:left;
+
+}
+
+.text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 30px;
+    color: #fff;
+}

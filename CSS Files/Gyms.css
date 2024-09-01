@@ -1,0 +1,34 @@
+.area {
+    position: absolute;
+    left: 100px;
+    top: 275px;
+}
+
+.highlights {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+
+.text {
+    position: absolute;
+    top: 350px;
+    left: 825px;
+}
+
+.video-container
+{
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    width: 700px;
+    height: 420px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}

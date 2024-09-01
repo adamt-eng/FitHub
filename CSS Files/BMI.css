@@ -1,0 +1,92 @@
+﻿.container {
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 32.5%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #595959;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.bmi-note
+{
+text-align:center;
+}
+
+.result {
+    color: #fff;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #eefc11;
+    margin-bottom: 20px;
+    font-size: 1.25em;
+}
+
+p {
+    color: #fff;
+}
+
+.input-group label {
+    display: block;
+    font-size: 1em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    color: #808080;
+    margin-bottom: 20px;
+}
+
+.input-group button {
+    display: block;
+    margin: 0 auto 20px auto;
+    color: #eefc11;
+    font-size: 1vw;
+    font-weight: 800;
+    padding: 10px 20px;
+    border: 2px solid #EEFC11;
+    border-radius: 50px;
+    background: transparent;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.input-group button:hover {
+    color: #000000;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    background: #EEFC11;
+}
+
+#result {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+#health-tips {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#warning {
+    font-size: 12px; 
+    opacity: 1; 
+    color: #f35252; 
+    text-align: center;
+}

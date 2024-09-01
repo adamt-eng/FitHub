@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Lunch</title>
+    <script src="../JavaScript Files/Repeated_Code.js"></script>
+    <link href="../CSS Files/Cards.css" rel="stylesheet" type="text/css">
+    <link href="../CSS Files/Repeated_Code.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <a href="Home.html" class="logo">FitHub</a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="Home.html">Home</a></li>
+            <li id="workout" style="display: none;"><a href="Workout.html">Workout</a></li>
+            <li id="healthyrecipes" style="display: none;"><a href="HealthyRecipes.html">Healthy Recipes</a></li>
+            <li id="bmicalculator" style="display: none;"><a href="BMI.html">BMI Calculator</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li id="login" style="display: none;"><a href="Login.html">Login</a></li>
+            <li id="register" style="display: none;"><a href="Register.html">Register</a></li>
+            <li id="profile" style="display: none;"><a href="Profile.html">My Profile</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="../Images/salmon.jpg" alt="plan 1" onclick="window.location.href='Baked Salmon.html'">
+            <div class="intro">
+                <h1>Baked Salmon</h1>
+            <p>Baked salmon is a healthy and delicious main course that cooks quickly.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../Images/wrap.jpeg" alt="plan 2" onclick="window.location.href='Turkey & Avocado Wrap.html'">
+            <div class="intro">
+                <h1>Turkey and Avocado Wrap</h1>
+                <p>This simple turkey avocado wrap is crazy delicious!</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../Images/chicken.jpg" alt="plan 3" onclick="window.location.href='Grilled Chicken.html'">
+            <div class="intro">
+                <h1>Grilled Chicken</h1>
+                <p>Enjoy the juicy succulence of grilled chicken, perfectly seasoned and seared.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

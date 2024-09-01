@@ -1,0 +1,34 @@
+.Next {
+	position: absolute;
+	top: 405px;
+	left: 1035px;
+}
+
+.Previous {
+	display: none;
+	position: absolute;
+	top: 405px;
+	left: 110px;
+}
+
+.table1 {
+	display: table;
+	position: absolute;
+	top: 150px;
+	left: 100px;
+}
+
+.table2, .table3, .table4, .table5, .table6 {
+	display: none;
+	position: absolute;
+	top: 150px;
+	left: 100px;
+}
+
+.container {
+	position: absolute;
+	width: 50%;
+	text-align: center;
+	top: 520px;
+	left: 105px;
+}

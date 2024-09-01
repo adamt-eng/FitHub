@@ -1,0 +1,40 @@
+﻿<html>
+<head>
+    <title>Workout</title>
+    <script src="../JavaScript Files/Repeated_Code.js"></script>
+    <link href="../CSS Files/Cards.css" rel="stylesheet" type="text/css">
+    <link href="../CSS Files/Repeated_Code.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <a href="Home.html" class="logo">FitHub</a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="Home.html">Home</a></li>
+            <li id="workout" style="display: none;"><a href="Workout.html">Workout</a></li>
+            <li id="healthyrecipes" style="display: none;"><a href="HealthyRecipes.html">Healthy Recipes</a></li>
+            <li id="bmicalculator" style="display: none;"><a href="BMI.html">BMI Calculator</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li id="login" style="display: none;"><a href="Login.html">Login</a></li>
+            <li id="register" style="display: none;"><a href="Register.html">Register</a></li>
+            <li id="profile" style="display: none;"><a href="Profile.html">My Profile</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="../Images/workout.jpg" alt="workout plan" onclick="window.location.href='WorkoutPlans.html'">
+            <div class="intro">
+                <h1>Workout Plans</h1>
+                <p>Find out your perfect workout plan for your journey</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../Images/gym.jpg" alt="Gym" onclick="window.location.href='Gyms.html'">
+            <div class="intro">
+                <h1>Gyms</h1>
+                <p>Can't find a gym yet? Don't worry we got you.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

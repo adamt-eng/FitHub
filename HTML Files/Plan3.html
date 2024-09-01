@@ -1,0 +1,179 @@
+﻿<html>
+<head>
+    <title>Plan 3</title>
+    <script src="../JavaScript Files/Repeated_Code.js"></script>
+    <script src="../JavaScript Files/Plan1.js"></script>
+    <script src="../JavaScript Files/Plan.js"></script>
+    <link href="../CSS Files/Plan.css" rel="stylesheet" type="text/css">
+    <link href="../CSS Files/Repeated_Code.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <a href="Home.html" class="logo">FitHub</a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="Home.html">Home</a></li>
+            <li id="workout" style="display: none;"><a href="Workout.html">Workout</a></li>
+            <li id="healthyrecipes" style="display: none;"><a href="HealthyRecipes.html">Healthy Recipes</a></li>
+            <li id="bmicalculator" style="display: none;"><a href="BMI.html">BMI Calculator</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li id="login" style="display: none;"><a href="Login.html">Login</a></li>
+            <li id="register" style="display: none;"><a href="Register.html">Register</a></li>
+            <li id="profile" style="display: none;"><a href="Profile.html">My Profile</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <h2>Adjust Difficulty</h2>
+        <br>
+        <input type="range" min="1" max="3" value="2" step="1" class="slider" id="difficultySlider" onchange="update(this.value)">
+        <p><span id="difficultyValue"></span></p>
+    </div>
+    <div>
+        <table id="table1" class="table1" width="50%" border="1" cellspacing="5" cellpadding="5">
+            <tr>
+                <th>Day</th>
+                <th>Workout Name</th>
+                <th>Sets</th>
+                <th>Reps</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td rowspan="6" align="center" width="100">Day 1</td>
+                <td align="center">Pull Ups</td>
+                <td align="center">3</td>
+                <td align="center">6</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/FWKi87ss8vs?si=gB1ClAf-3ouTqjET">Pull Ups Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Seated Cable Rows</td>
+                <td align="center">3</td>
+                <td align="center">8</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/UCXxvVItLoM?si=XVcPGM88BqsIxgwH">Seated Cable Rows Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Bench Press</td>
+                <td align="center">5</td>
+                <td align="center">5</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/zubTrcIIl74?si=dbeB9CoxdFA5tg4Z">Bench Press Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Push Ups</td>
+                <td align="center">3</td>
+                <td align="center">10</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/JyCG_5l3XLk?si=ofAZEqDkIVXxAesc">Push Ups Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Landmine Press</td>
+                <td align="center">3</td>
+                <td align="center">10</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/t9GuiNQo1O4?si=hc0Can16RQjifT7P">Landmine Press Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Farmer's Carry</td>
+                <td align="center">3</td>
+                <td align="center">20 meters</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/8OtwXwrJizk?si=hjkUysp9TpBMIDb4">Farmer's Carry Tutorial</a></td>
+            </tr>
+        </table>
+        <table id="table2" class="table2" width="50%" border="1" cellspacing="5" cellpadding="5">
+            <tr>
+                <th>Day</th>
+                <th>Workout Name</th>
+                <th>Sets</th>
+                <th>Reps</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td rowspan="6" align="center" width="100">Day 2</td>
+                <td align="center">Leg Press</td>
+                <td align="center">4</td>
+                <td align="center">12</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/yZmx_Ac3880?si=TWIjvcFgW6yOuc12">Leg Press Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Leg Extension</td>
+                <td align="center">4</td>
+                <td align="center">12</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/4ZDm5EbiFI8?si=lla9wgSm7IMYWn4o">Leg Extension Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Leg Curl</td>
+                <td align="center">3</td>
+                <td align="center">12</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/Orxowest56U?si=Mj8tYaihFjg8zdAz">Leg Curl Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Cable Goblet Squats</td>
+                <td align="center">3</td>
+                <td align="center">12</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/a8ToNr9ClCc?si=rfNrSlTU37oNMgHn">Cable Goblet Squats Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Hip Abduction</td>
+                <td align="center">3</td>
+                <td align="center">12</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/G_8LItOiZ0Q?si=XxqCo0gbtVfUWLd9">Hip Abduction Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Seated Calf Raises</td>
+                <td align="center">4</td>
+                <td align="center">12</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/HSGjUouQZCQ?si=_HgYO2gPPoPtzW3m">Seated Calf Raises Tutorial</a></td>
+            </tr>
+        </table>
+        <table id="table3" class="table3" width="50%" border="1" cellspacing="5" cellpadding="5">
+            <tr>
+                <th>Day</th>
+                <th>Workout Name</th>
+                <th>Sets</th>
+                <th>Reps</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td rowspan="7" align="center" width="100">Day 3</td>
+                <td align="center">Chin Ups</td>
+                <td align="center">4</td>
+                <td align="center">6</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/8mryJ3w2S78?si=GEhCmOp6XjnwKWmE">Chin Ups Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Leg Press</td>
+                <td align="center">3</td>
+                <td align="center">8</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/yZmx_Ac3880?si=TWIjvcFgW6yOuc12">Leg Press Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Seated DB Overhead Press</td>
+                <td align="center">3</td>
+                <td align="center">10</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/M2rwvNhTOu0?si=i2LISrmyF3SAb-eA">Seated DB Overhead Press Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Walking Lunges</td>
+                <td align="center">3</td>
+                <td align="center">100 steps</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/tQNktxPkSeE?si=JtXOKEJgsTUzNN0c">Walking Lunges Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Leg Curl</td>
+                <td align="center">3</td>
+                <td align="center">15</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/Orxowest56U?si=Mj8tYaihFjg8zdAz">Leg Curl Tutorial</a></td>
+            </tr>
+            <tr>
+                <td align="center">Calf Raise</td>
+                <td align="center">3</td>
+                <td align="center">15</td>
+                <td align="center"><a target="_blank" href="https://youtu.be/HSGjUouQZCQ?si=_HgYO2gPPoPtzW3m">Calf Raise Tutorial</a></td>
+            </tr>
+        </table>
+    </div>
+    <a onclick="nextpage()" class="Next" id="Next"><img src="../Images/Next.png" alt="Next" width="20" height="35"></a>
+    <a onclick="previouspage()" class="Previous" id="Previous"><img src="../Images/Previous.png" alt="Previous" width="20" height="35"></a>
+    <ul class="sci">
+        <li><a href="https://www.facebook.com/faculty.eng.asu/"><img src="../Images/facebook.png" alt="Facebook logo" class="auto-style1"></a></li>
+        <li><a href="https://www.instagram.com/ainshamsuniversity/"><img src="../Images/instagram.png" alt="Instagram logo" class="auto-style1"></a></li>
+        <li><a href="ContactUs.html"><img src="../Images/contact.png" alt="contact us logo"></a></li>
+    </ul>
+</body>
+</html>

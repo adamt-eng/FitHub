@@ -1,0 +1,81 @@
+﻿.view {
+	width: 100%;
+	min-height: 80vh;
+	position: relative;
+}
+
+.home {
+	display: flex;
+	min-height: 120vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+	filter: brightness(40%);
+}
+
+.highlights {
+	width: 70%;
+	position: relative;
+	display: inline-block;
+	z-index: 11;
+	margin-top: -200px;
+}
+
+	.highlights h3 {
+		display: inline-block;
+		font-size: 2vw;
+		padding: 5px 20px;
+		font-weight: lighter;
+		text-transform: capitalize;
+		border-left: 6px solid #EEFC11;
+	}
+
+	.highlights h1 {
+		font-size: 9vw;
+		font-weight: normal;
+		text-align: center;
+	}
+
+	.highlights b {
+		font-weight: 800;
+		color: #EEFC11;
+		font-family: sans-serif;
+	}
+
+	.highlights .tagline {
+		color: #EEFC11;
+		font-size: 1.2vw;
+		text-align: center;
+		font-weight: normal;
+	}
+
+	.highlights .started {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		color: #EEFC11;
+		font-size: 1.5vw;
+		font-weight: 800;
+		padding: 5px 20px;
+		margin-top: 1.2em;
+		border: 2px solid #EEFC11;
+		border-radius: 50px;
+		background: transparent;
+		text-transform: uppercase;
+		transition: 0.3s ease;
+		text-decoration:none;
+	}
+
+		.highlights .started:hover {
+			color: #000000;
+			cursor: pointer;
+			letter-spacing: 1.5px;
+			background: #EEFC11;
+		}

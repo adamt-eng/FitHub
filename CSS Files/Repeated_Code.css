@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@5006display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+	outline: none;
+	color: #fff;
+}
+
+body {
+	background: url('../Images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.sci {
+	position: absolute;
+	bottom: 30px;
+	display: flex;
+	padding: 30px 120px;
+}
+
+	.sci li {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+		.sci li a {
+			position: relative;
+			display: inline-block;
+			margin-right: 20px;
+			filter: invert(1);
+			transform: scale(0.5);
+		}
+
+header {
+	position: fixed;
+	width: 100%;
+	padding: 30px 120px;
+	display: flex;
+	justify-content: space-between;
+	background-color: transparent;
+	z-index: 1111;
+	transition: 0.5s ease;
+}
+
+	header .logo {
+		font-size: 2.5em;
+		text-transform: uppercase;
+		font-weight: 800;
+		text-decoration: none;
+		letter-spacing: 2px;
+	}
+
+	header .navigation {
+		margin: auto 0;
+		display: flex;
+	}
+
+		header .navigation li {
+			list-style: none;
+			margin-right: 20px;
+		}
+
+			header .navigation li a {
+				font-weight: 500;
+				margin-right: 20px;
+				text-decoration: none;
+				text-transform: capitalize;
+			}
+
+				header .navigation li a:hover {
+					color: #EEFC11;
+				}
+
+@media (max-width: 991px) {
+    header {
+        padding: 15px 40px;
+    }
+
+    body {
+        background: url('../Images/background2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #808080;
+        z-index: 10;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+        header .navigation.active {
+            display: flex;
+        }
+
+        header .navigation li a {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+    .toggleMenu {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        background: url('../Images/menu.png');
+        background-position: center;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        z-index: 11;
+    }
+
+        .toggleMenu.active {
+            background: url('../Images/close.png');
+            background-position: center;
+            background-size: 30px;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            z-index: 11;
+        }
+}

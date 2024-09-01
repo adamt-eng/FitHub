@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>My Profile</title>
+    <script src="../JavaScript Files/Repeated_Code.js"></script>
+    <script src="../JavaScript Files/Profile.js"></script>
+    <link href="../CSS Files/Profile.css" rel="stylesheet" type="text/css">
+    <link href="../CSS Files/Repeated_Code.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <a href="Home.html" class="logo">FitHub</a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="Home.html">Home</a></li>
+            <li id="workout" style="display: none;"><a href="Workout.html">Workout</a></li>
+            <li id="healthyrecipes" style="display: none;"><a href="HealthyRecipes.html">Healthy Recipes</a></li>
+            <li id="bmicalculator" style="display: none;"><a href="BMI.html">BMI Calculator</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li id="login" style="display: none;"><a href="Login.html">Login</a></li>
+            <li id="register" style="display: none;"><a href="Register.html">Register</a></li>
+            <li id="profile" style="display: none;"><a href="Profile.html">My Profile</a></li>
+        </ul>
+    </header>
+        <main>
+            <h1>Member Data</h1>
+            <br>
+            <table class="tableclass">
+                <tr>
+                    <th>Username</th>
+                    <th>Height (cm)</th>
+                    <th>Weight (kg)</th>
+                    <th>Body Mass Index (BMI)</th>
+                </tr>
+                <tr>
+                    <td align="center" width=25% id="usernameCell">N/A</td>
+                    <td align="center" width=25% id="heightCell">N/A</td>
+                    <td align="center" width=25% id="weightCell">N/A</td>
+                    <td align="center" width=25% id="bmiCell">N/A</td>
+                </tr>
+            </table>
+            <div class="input-group1"><button type="button" onclick="logout()">Logout</button></div>
+            <br><br><br>
+            <div class="input-group2"><button type="button" onclick="delete_account()">Delete Account</button></div>
+        </main>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/faculty.eng.asu/"><img src="../Images/facebook.png" alt="Facebook logo" class="auto-style1"></a></li>
+            <li><a href="https://www.instagram.com/ainshamsuniversity/"><img src="../Images/instagram.png" alt="Instagram logo" class="auto-style1"></a></li>
+            <li><a href="ContactUs.html"><img src="../Images/contact.png" alt="contact us logo"></a></li>
+        </ul>
+</body>
+</html>

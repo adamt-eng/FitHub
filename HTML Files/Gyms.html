@@ -1,0 +1,43 @@
+﻿<html>
+<head>
+    <title>Gyms</title>
+    <script src="../JavaScript Files/Repeated_Code.js"></script>
+    <script src="../JavaScript Files/Gyms.js"></script>
+    <link href="../CSS Files/Gyms.css" rel="stylesheet" type="text/css">
+    <link href="../CSS Files/Repeated_Code.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <a href="Home.html" class="logo">FitHub</a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="Home.html">Home</a></li>
+            <li id="workout" style="display: none;"><a href="Workout.html">Workout</a></li>
+            <li id="healthyrecipes" style="display: none;"><a href="HealthyRecipes.html">Healthy Recipes</a></li>
+            <li id="bmicalculator" style="display: none;"><a href="BMI.html">BMI Calculator</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li id="login" style="display: none;"><a href="Login.html">Login</a></li>
+            <li id="register" style="display: none;"><a href="Register.html">Register</a></li>
+            <li id="profile" style="display: none;"><a href="Profile.html">My Profile</a></li>
+        </ul>
+    </header>
+    <div class="highlights"><h1>Select your area:</h1></div>
+    <div class="video-container"><video controls id="video" src="#" type="video/mp4"></video></div>
+    <div class="area">
+        <select id="area" style=" font-size:24px; color-scheme:dark" onchange="Change()">
+            <option value="ASU - FOE">ASU - FOE</option>
+            <option value="Nasr City">Nasr City</option>
+            <option value="1st Settlement">1st Settlement</option>
+            <option value="El Obour">El Obour</option>
+            <option value="El Shorouk">El Shorouk</option>
+            <option value="El Mokattam">El Mokattam</option>
+        </select>
+    </div>
+    <div class="text" id="text"><h2></h2></div>
+    <ul class="sci">
+        <li><a href="https://www.facebook.com/faculty.eng.asu/"><img src="../Images/facebook.png" alt="Facebook logo" class="auto-style1"></a></li>
+        <li><a href="https://www.instagram.com/ainshamsuniversity/"><img src="../Images/instagram.png" alt="Instagram logo" class="auto-style1"></a></li>
+        <li><a href="ContactUs.html"><img src="../Images/contact.png" alt="contact us logo"></a></li>
+    </ul>
+</body>
+</html>

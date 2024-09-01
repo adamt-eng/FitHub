@@ -1,0 +1,47 @@
+﻿<html>
+<head>
+    <title>Workout Plans</title>
+    <script src="../JavaScript Files/Repeated_Code.js"></script>
+    <link href="../CSS Files/Cards.css" rel="stylesheet" type="text/css">
+    <link href="../CSS Files/Repeated_Code.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <a href="Home.html" class="logo">FitHub</a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="Home.html">Home</a></li>
+            <li id="workout" style="display: none;"><a href="Workout.html">Workout</a></li>
+            <li id="healthyrecipes" style="display: none;"><a href="HealthyRecipes.html">Healthy Recipes</a></li>
+            <li id="bmicalculator" style="display: none;"><a href="BMI.html">BMI Calculator</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li id="login" style="display: none;"><a href="Login.html">Login</a></li>
+            <li id="register" style="display: none;"><a href="Register.html">Register</a></li>
+            <li id="profile" style="display: none;"><a href="Profile.html">My Profile</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="../Images/ppl.jpg" alt="plan 1" onclick="window.location.href='Plan1.html'">
+            <div class="intro">
+                <h1>PLAN 1</h1>
+                <p>Push Pull Legs</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../Images/arnold.jpg" alt="plan 2" onclick="window.location.href='Plan2.html'">
+            <div class="intro">
+                <h1>PLAN 2</h1>
+                <p>Arnold Split</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../Images/upperlower.jpg" alt="plan 3" onclick="window.location.href='Plan3.html'">
+            <div class="intro">
+                <h1>PLAN 3</h1>
+                <p>Upper Lower</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

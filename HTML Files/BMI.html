@@ -1,0 +1,47 @@
+﻿<html>
+<head>
+    <title>BMI Calculator</title>
+    <script src="../JavaScript Files/Repeated_Code.js"></script>
+    <script src="../JavaScript Files/BMI.js"></script>
+    <link href="../CSS Files/BMI.css" rel="stylesheet" type="text/css">
+    <link href="../CSS Files/Repeated_Code.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <a href="Home.html" class="logo">FitHub</a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="Home.html">Home</a></li>
+            <li id="workout" style="display: none;"><a href="Workout.html">Workout</a></li>
+            <li id="healthyrecipes" style="display: none;"><a href="HealthyRecipes.html">Healthy Recipes</a></li>
+            <li id="bmicalculator" style="display: none;"><a href="BMI.html">BMI Calculator</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li id="login" style="display: none;"><a href="Login.html">Login</a></li>
+            <li id="register" style="display: none;"><a href="Register.html">Register</a></li>
+            <li id="profile" style="display: none;"><a href="Profile.html">My Profile</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <h2>Body Mass Index Calculator</h2>
+        <br>
+        <div class="input-group">
+            <label for="weight">Weight (kg)</label>
+            <input id="weight" name="weight" required>
+        </div>
+        <div class="input-group">
+            <label for="height">Height (cm)</label>
+            <input id="height" name="height" required>
+        </div>
+        <div class="input-group"><button onclick="calculateBMI()">Calculate BMI</button></div>
+        <div class="result" id="result"></div>
+        <p class="bmi-note" id="bmi-note"></p>
+        <br>
+        <div id="warning">Warning: BMI may not accurately reflect the health of extremely fit individuals.</div>
+    </div>
+    <ul class="sci">
+        <li><a href="https://www.facebook.com/faculty.eng.asu/"><img src="../Images/facebook.png" alt="Facebook logo" class="auto-style1"></a></li>
+        <li><a href="https://www.instagram.com/ainshamsuniversity/"><img src="../Images/instagram.png" alt="Instagram logo" class="auto-style1"></a></li>
+        <li><a href="ContactUs.html"><img src="../Images/contact.png" alt="contact us logo"></a></li>
+    </ul>
+</body>
+</html>
