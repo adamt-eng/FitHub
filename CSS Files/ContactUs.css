@@ -5,7 +5,7 @@
 }
 
 .container {
-    max-width: 600px; 
+    max-width: 600px;
     width: 80%;
     position: absolute;
     top: 50%;
@@ -20,8 +20,8 @@
 
 h2 {
     text-align: center;
+    font-size: 2em;
     color: #fff;
-    font-size:2em;
 }
 
 .input-field {
@@ -29,60 +29,49 @@ h2 {
     margin-bottom: 20px;
 }
 
-    .input-field label {
-        position: absolute;
-        top: -25px;
-        left: 10px;
-        font-size: 14px;
-        color: #fff;
-        margin-top: 20px;
-        align-content: space-between;
-    }
+.input-field label {
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+}
 
-    .input-field input {
-        width: 100%;
-        padding: 10px;
-        border: none;
-        border-bottom: 2px solid #777777;
-        outline: none;
-        color: #fff;
-        background-color:#808080;
-        font-size:20px;
-    }
-    .input-field textarea {
-        width: 100%;
-        padding: 10px;
-        border: none;
-        border-bottom: 2px solid #777777;
-        outline: none;
-        color: #fff;
-        height: 200px;
-        background-color: #808080;
-        font-size: 20px;
-    }
+.input-field input, 
+.input-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #777;
+    outline: none;
+    color: #fff;
+    background-color: #808080;
+    font-size: 20px;
+}
 
-    .input-field textarea {
-
-    }
+.input-field textarea {
+    height: 200px;
+}
 
 .btn {
     display: block;
     margin: 0 auto;
-    color: #EEFC11;
     font-size: 1vw;
     font-weight: 800;
     padding: 10px 20px;
     border: 2px solid #EEFC11;
     border-radius: 50px;
     background: transparent;
+    color: #EEFC11;
     text-transform: uppercase;
     transition: 0.3s ease;
     text-decoration: none;
 }
 
-    .btn:hover {
-        color: #000000;
-        cursor: pointer;
-        letter-spacing: 1.5px;
-        background: #EEFC11;
-    }
+.btn:hover {
+    color: #000;
+    background: #EEFC11;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}

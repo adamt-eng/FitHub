@@ -11,7 +11,7 @@
 	transform: translate(-50%, -50%);
 	padding: 50px 100px 100px;
 	border-radius: 30px;
-	box-shadow: 0 0 10px rgba(0, 0, o, 0.3);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	background-color: #808080;
 	height: 430px;
 }
@@ -19,14 +19,14 @@
 h2 {
 	text-align: center;
 	font-size: 2em;
-	color:#fff;
+	color: #fff;
 }
 
 .input-group label {
 	display: block;
 	font-size: 1.2em;
-	margin-top: 0;
 	color: #fff;
+	margin-top: 0;
 }
 
 .input-group input {
@@ -34,7 +34,6 @@ h2 {
 	padding: 10px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
-	display: inline-block;
 	font-size: 1.2em;
 	color: #808080;
 }
@@ -43,12 +42,12 @@ h2 {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-	color: #EEFC11;
+	color: #eefc11;
 	font-size: 1vw;
 	font-weight: 800;
 	padding: 10px 20px;
 	margin-top: 1.7em;
-	border: 2px solid #EEFC11;
+	border: 2px solid #eefc11;
 	border-radius: 50px;
 	background: transparent;
 	text-transform: uppercase;
@@ -56,18 +55,16 @@ h2 {
 	text-decoration: none;
 }
 
-	.input-group button:hover {
-		color: #000000;
-		cursor: pointer;
-		letter-spacing: 1.5px;
-		background: #EEFC11;
-	}
+.input-group button:hover {
+	color: #000;
+	letter-spacing: 1.5px;
+	background: #eefc11;
+	cursor: pointer;
+}
 
 .error-message {
 	color: #981717;
 	font-size: 14px;
 	margin-top: 5px;
 	display: none;
-
 }
-

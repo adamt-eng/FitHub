@@ -5,24 +5,25 @@
 	height: 100vh;
 }
 
-	.container img {
-		height: 500px;
-		width: 350px;
-		border-radius: 3px;
-		margin: 0 10px;
-		box-shadow: 0 6px 6px rgba(0, 0, 0, 0.4);
-	}
+.container img {
+	height: 500px;
+	width: 350px;
+	border-radius: 3px;
+	margin: 0 10px;
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.4);
+	transition: 0.5s ease;
+}
 
 .intro {
-	height: 200px;
 	width: 350px;
+	height: 200px;
 	padding: 6px;
 	box-sizing: border-box;
 	position: absolute;
-	background: rgb(27,27,27,.5);
+	background: rgba(27, 27, 27, 0.5);
 	color: #fff;
 	bottom: 208px;
-	transition: .5s;
+	transition: 0.5s;
 	margin: 0 10px;
 }
 
@@ -36,6 +37,7 @@ p {
 	margin: 20px;
 	visibility: hidden;
 	opacity: 0;
+	transition: opacity 0.5s ease;
 }
 
 span {
@@ -46,19 +48,17 @@ span {
 	cursor: pointer;
 }
 
-	.card:hover .intro {
-		height: 220px;
-		bottom: 240px;
-		background: black;
-	}
+.card:hover .intro {
+	height: 220px;
+	bottom: 240px;
+	background: black;
+}
 
-	.card:hover p {
-		opacity: 1;
-		visibility: visible;
-	}
+.card:hover p {
+	visibility: visible;
+	opacity: 1;
+}
 
-	.card:hover img {
-		transition: 0.5s ease;
-
-		transform: scale(1.1) rotate(-3deg);
-	}
+.card:hover img {
+	transform: scale(1.1) rotate(-3deg);
+}

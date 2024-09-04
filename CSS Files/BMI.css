@@ -10,12 +10,12 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.bmi-note
-{
-text-align:center;
+.bmi-note, #health-tips {
+    text-align: center;
+    color: #fff;
 }
 
-.result {
+.result, p, #result {
     color: #fff;
     margin-top: 20px;
 }
@@ -25,10 +25,6 @@ h2 {
     color: #eefc11;
     margin-bottom: 20px;
     font-size: 1.25em;
-}
-
-p {
-    color: #fff;
 }
 
 .input-group label {
@@ -43,19 +39,18 @@ p {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    display: inline-block;
     color: #808080;
     margin-bottom: 20px;
 }
 
 .input-group button {
     display: block;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 20px;
     color: #eefc11;
     font-size: 1vw;
     font-weight: 800;
     padding: 10px 20px;
-    border: 2px solid #EEFC11;
+    border: 2px solid #eefc11;
     border-radius: 50px;
     background: transparent;
     text-transform: uppercase;
@@ -64,29 +59,21 @@ p {
 }
 
 .input-group button:hover {
-    color: #000000;
+    color: #000;
     cursor: pointer;
     letter-spacing: 1.5px;
-    background: #EEFC11;
+    background: #eefc11;
 }
 
 #result {
     font-size: 18px;
     text-align: center;
     font-weight: bold;
-    color: #ffffff;
-    margin-top: 20px;
-}
-
-#health-tips {
-    color: #fff;
-    text-align: center;
-    margin-top: 10px;
 }
 
 #warning {
-    font-size: 12px; 
-    opacity: 1; 
-    color: #f35252; 
+    font-size: 12px;
+    opacity: 1;
+    color: #f35252;
     text-align: center;
 }

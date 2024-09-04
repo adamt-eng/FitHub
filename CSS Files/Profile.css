@@ -6,20 +6,18 @@
 	transform: translate(-50%, -50%);
 	padding: 40px 80px 80px;
 	border-radius: 30px;
-	box-shadow: 0 0 10px rgba(0, 0, o, 0.3);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	max-height: 450px;
 	background-color: #808080;
 }
 
-.tableclass
-{
+.tableclass {
 	width: 600px;
 }
 
 h1 {
 	text-align: center;
 	font-size: 2em;
-	color: #fff;
 }
 
 table {
@@ -32,71 +30,55 @@ th, td {
 	padding: 10px;
 	text-align: center;
 	border: 1px solid #ddd;
-	color: #fff;
 }
 
 th {
 	background-color: #6e6e6e;
-	color: #fff;
 }
 
 tr:nth-child(even) {
 	background-color: #6e6e6e;
 }
 
-.input-group1 {
+.input-group1, .input-group2 {
 	margin-bottom: 10px;
 }
 
-	.input-group1 button {
-		position: absolute;
-		left: 50%;
-		transform: translateX(-50%);
-		color: #EEFC11;
-		font-size: 1vw;
-		font-weight: 800;
-		padding: 5px 20px;
-		margin-top: 1.2em;
-		border: 2px solid #EEFC11;
-		border-radius: 50px;
-		background: transparent;
-		text-transform: uppercase;
-		transition: 0.3s ease;
-		text-decoration: none;
-	}
-
-		.input-group1 button:hover {
-			color: #000000;
-			cursor: pointer;
-			letter-spacing: 1.5px;
-			background: #EEFC11;
-		}
-
-
-.input-group2 {
-	margin-bottom: 10px;
+.input-group1 button, .input-group2 button {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 1vw;
+	font-weight: 800;
+	padding: 5px 20px;
+	margin-top: 1.2em;
+	border-radius: 50px;
+	background: transparent;
+	text-transform: uppercase;
+	transition: 0.3s ease;
+	text-decoration: none;
 }
 
-	.input-group2 button {
-		position: absolute;
-		left: 50%;
-		transform: translateX(-50%);
-		color: #ff0000;
-		font-size: 1vw;
-		font-weight: 800;
-		padding: 5px 20px;
-		margin-top: 1.2em;
-		border: 2px solid #ff0000;
-		border-radius: 50px;
-		background: transparent;
-		text-transform: uppercase;
-		transition: 0.3s ease;
-		text-decoration: none;
-	}
+.input-group1 button {
+	color: #EEFC11;
+	border: 2px solid #EEFC11;
+}
 
-		.input-group2 button:hover {
-			color: #fff;
-			cursor: pointer;
-			letter-spacing: 1.5px;
-			background: #ff0000;
-		}
+.input-group1 button:hover {
+	color: #000000;
+	background: #EEFC11;
+	cursor: pointer;
+	letter-spacing: 1.5px;
+}
+
+.input-group2 button {
+	color: #ff0000;
+	border: 2px solid #ff0000;
+}
+
+.input-group2 button:hover {
+	color: #fff;
+	background: #ff0000;
+	cursor: pointer;
+	letter-spacing: 1.5px;
+}
